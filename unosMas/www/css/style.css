@@ -1,0 +1,35 @@
+/* Empty. Add your own CSS if you like */
+
+/* Home Page CSS */
+.homeImg{
+	height: 250px;
+	width: 200px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+	
+}
+ion-content{
+	background: #A92626;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#homeButton{
+	text-shadow: 30px;
+	 color: #2B2323;
+  	font-weight: bold;
+  	font-size: 150%;
+  	text-transform: uppercase;
+  	padding:5px;
+  	position: center;
+  	margin-bottom:5px;
+  font-family: 'Teko', sans-serif;
+}
+h2{
+	text-align: center;
+	font-family: 'Sancreek', cursive;
+	margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+}

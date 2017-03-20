@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/ionic.app.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endinject -->
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <!-- inject:js -->
+    <script src="js/unoMas.module.js"></script>
+    <script src="js/features/home/home.module.js"></script>
+    <script src="js/features/login/login.module.js"></script>
+    <script src="js/features/confirmation/confirmation.module.js"></script>
+    <script src="js/features/selection/selection.module.js"></script>
+    <script src="js/features/signUp/signUp.module.js"></script>
+    <script src="js/features/components/patients/patients.module.js"></script>
+    <script src="js/features/home/home.controller.js"></script>
+    <script src="js/features/home/home.route.js"></script>
+    <script src="js/features/login/login.controller.js"></script>
+    <script src="js/features/login/login.route.js"></script>
+    <script src="js/features/confirmation/confirmation.controller.js"></script>
+    <script src="js/features/confirmation/confirmation.route.js"></script>
+    <script src="js/features/selection/selection.controller.js"></script>
+    <script src="js/features/selection/selection.route.js"></script>
+    <script src="js/features/signUp/signUp.controller.js"></script>
+    <script src="js/features/signUp/signUp.route.js"></script>
+    <script src="js/features/components/patients/patients.service.js"></script>
+    <!-- endinject -->
+    <link href="https://fonts.googleapis.com/css?family=Sancreek|Teko:700" rel="stylesheet">
+  </head>
+  <body ng-app="unoMas">
+
+    <ion-nav-bar class="bar-dark">
+      <ion-nav-back-button></ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-nav-view></ion-nav-view>
+    
+    <ion-footer-bar class="bar-dark">
+        
+    </ion-footer-bar>
+
+
+  </body>
+</html>
+
+
+
+
+
+
