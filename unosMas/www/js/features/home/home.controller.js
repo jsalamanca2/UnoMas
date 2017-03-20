@@ -2,7 +2,7 @@ angular
 	.module('unoMas.home')
 	.controller('HomeCtrl', HomeCtrl);
 
-function HomeCtrl(patients, $cordovaCamera,$state) {
+function HomeCtrl(patients, $cordovaCamera, $state) {
 	var vm = this;
 
 	vm.patientInfo = {

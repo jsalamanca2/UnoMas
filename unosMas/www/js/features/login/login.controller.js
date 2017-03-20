@@ -7,5 +7,7 @@ function LoginCtrl($state) {
 
 	vm.continue = function(){
 		$state.go('selection');
-	}
+	};
+
+
 }

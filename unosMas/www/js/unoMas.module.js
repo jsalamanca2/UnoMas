@@ -4,7 +4,10 @@ angular
 
     'unoMas.home',
     'unoMas.login',
-    'unoMas.signUp'
+    'unoMas.signUp',
+    'unoMas.selection',
+    'unoMas.confirmation',
+    'unoMas.location'
   ])
   .config(unoMasConfig)
   .run(unoMasRun);
