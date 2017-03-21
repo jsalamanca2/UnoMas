@@ -1,5 +1,7 @@
 /* Empty. Add your own CSS if you like */
-
+body{
+  background-color:#A92626; 
+}
 /* Home Page CSS */
 .homeImg{
 	height: 250px;
@@ -47,13 +49,16 @@ h2{
   font-weight: bold;
   font-size: 25px;
 }
-
+#signLink{
+  text-align: center;
+}
 
 
 /*Selection CSS*/
 img{
-  height: 15px;
-  width: 20px;
+  padding: 5px;
+  height: 100px;
+  width: 150px;
 }
 #loginButton{
   text-shadow: 30px;

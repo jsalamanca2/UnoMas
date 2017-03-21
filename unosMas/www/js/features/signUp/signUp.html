@@ -2,13 +2,13 @@
 	<ion-content ng-SignUpCtrl>
 	 <form name="myForm" novalidate>
         <div class="list">
-            <label class="item item-input">
-                <span class="input-label">name</span>
-                <input type="text" name="username" ng-model="username" ng-minlength="5" required>
+            <label class="item item-input item-floating-label">
+                <span show class="input-label">Username Email</span>
+                <input type="email" name="username" ng-model="username" ng-minlength="5" required>
             </label>
-            <label class="item item-input">
-                <span class="input-label">Password</span>
-                <input type="text" name="password" ng-model="password" ng-minlength="6" required>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Create Password</span>
+                <input type="password" name="password" ng-model="password" ng-minlength="6" required>
             </label>
         </div>
         <div class="padding">
@@ -19,7 +19,7 @@
             <p ng-show="myForm.password.$error.minlength">* Password must be longer than 6 characters</p>
         </div>
         <div class="padding">
-            <button type="button" class="button button-block button-positive" ng-disabled="myForm.$invalid" ng-click="submit(username)">Submit</button>
+            <button type="button" class="button button-block button-dark" ng-disabled="myForm.$invalid" ng-click="submit(username)">Submit</button>
         </div>
     </form>
 		<!-- <div class="list">
