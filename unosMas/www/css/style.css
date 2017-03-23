@@ -79,6 +79,17 @@ img{
     height: 100%;
 }
 
+button{
+    text-shadow: 30px;
+   color: #2B2323;
+    font-weight: bold;
+    font-size: 150%;
+    text-transform: uppercase;
+    padding:5px;
+    position: center;
+    margin-bottom:5px;
+  font-family: 'Teko', sans-serif;
+}
 
 
 

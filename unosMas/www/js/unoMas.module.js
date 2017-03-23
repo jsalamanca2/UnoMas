@@ -1,7 +1,6 @@
 angular
   .module('unoMas', [
     'ionic',
-
     'unoMas.home',
     'unoMas.login',
     'unoMas.signUp',

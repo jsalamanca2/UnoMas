@@ -1,5 +1,7 @@
 angular
 	.module('unoMas.confirmation', [
-		'unoMas.component.patients',
+		'unoMas.component.driver',
+        'unoMas.component.api',
 		'ngCordova'
+		// 'ui-router'
 	]);

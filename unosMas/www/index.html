@@ -24,6 +24,9 @@
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
+   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script> -->
+
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
@@ -31,33 +34,37 @@
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
     <!-- Google Map API -->
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyBMNQxNfkH42HF89Get58dJEYisBCG&sensor=true"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyBMNQxNfkH42HF89Get58dJEYisBCG-jRo&sensor=true"></script>
 
     <!-- your app's js -->
     <!-- inject:js -->
     <script src="js/unoMas.module.js"></script>
-    <script src="js/features/home/home.module.js"></script>
-    <script src="js/features/login/login.module.js"></script>
-    <script src="js/features/location/location.module.js"></script>
     <script src="js/features/confirmation/confirmation.module.js"></script>
-    <script src="js/features/signUp/signUp.module.js"></script>
+    <script src="js/features/home/home.module.js"></script>
+    <script src="js/features/location/location.module.js"></script>
+    <script src="js/features/login/login.module.js"></script>
     <script src="js/features/selection/selection.module.js"></script>
+    <script src="js/features/signUp/signUp.module.js"></script>
+    <script src="js/features/components/api/api.module.js"></script>
+    <script src="js/features/components/driver/driver.module.js"></script>
     <script src="js/features/components/patients/patients.module.js"></script>
-    <script src="js/features/home/home.controller.js"></script>
-    <script src="js/features/home/home.route.js"></script>
-    <script src="js/features/login/login.controller.js"></script>
-    <script src="js/features/login/login.route.js"></script>
-    <script src="js/features/location/location.controller.js"></script>
-    <script src="js/features/location/location.route.js"></script>
     <script src="js/features/confirmation/confirmation.controller.js"></script>
     <script src="js/features/confirmation/confirmation.route.js"></script>
-    <script src="js/features/signUp/signUp.controller.js"></script>
-    <script src="js/features/signUp/signUp.route.js"></script>
+    <script src="js/features/home/home.controller.js"></script>
+    <script src="js/features/home/home.route.js"></script>
+    <script src="js/features/location/location.controller.js"></script>
+    <script src="js/features/location/location.route.js"></script>
+    <script src="js/features/login/login.controller.js"></script>
+    <script src="js/features/login/login.route.js"></script>
     <script src="js/features/selection/selection.controller.js"></script>
     <script src="js/features/selection/selection.route.js"></script>
+    <script src="js/features/signUp/signUp.controller.js"></script>
+    <script src="js/features/signUp/signUp.route.js"></script>
+    <script src="js/features/components/api/api.service.js"></script>
+    <script src="js/features/components/driver/driver.directive.js"></script>
     <script src="js/features/components/patients/patients.service.js"></script>
     <!-- endinject -->
-    <link href="https://fonts.googleapis.com/css?family=Sancreek|Teko:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sancreek%7CTeko%3A700" rel="stylesheet">
   </head>
   <body ng-app="unoMas">
 

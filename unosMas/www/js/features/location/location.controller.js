@@ -21,7 +21,7 @@ function LocationCtrl($scope, $state, $cordovaGeolocation) {
 	      mapTypeId: google.maps.MapTypeId.ROADMAP
 	    };
  
-    	$scope.map = new google.maps.Map(document.getElementById("location"), mapOptions);
+    	$scope.map = new google.maps.Map(document.getElementById("map"), mapOptions);
  
 	}, function(error){
 	    console.log("Could not get location");

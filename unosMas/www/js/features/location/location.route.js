@@ -10,5 +10,5 @@ function locationConfig($stateProvider, $urlRouterProvider) {
 		controller: 'LocationCtrl',
 		controllerAs: 'LocationVM'
 	});
-	$urlRouterProvider.otherwise("/");
+	$urlRouterProvider.otherwise("/location");
 }
