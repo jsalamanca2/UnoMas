@@ -11,6 +11,9 @@ body{
     display: block;
 	
 }
+.foodHrs{
+  text-align: center;
+}
 ion-content{
 	background: #A92626;
 	margin-left: auto;
@@ -57,8 +60,8 @@ h2{
 /*Selection CSS*/
 img{
   padding: 5px;
-  height: 100px;
-  width: 150px;
+  height: 200px;
+  width: 368px;
 }
 #loginButton{
   text-shadow: 30px;
