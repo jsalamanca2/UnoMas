@@ -9,11 +9,7 @@ function ConfirmationCtrl(api, $q) {
     vm.isListView = false;
 
     var promises = [
-        api.user(23),
-        api.user(3),
-        api.user(3223),
-        api.user(2323),
-        api.user(4423)
+        api.user(23)
 
     ];
 
