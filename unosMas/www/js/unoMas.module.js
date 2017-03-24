@@ -6,7 +6,8 @@ angular
     'unoMas.signUp',
     'unoMas.selection',
     'unoMas.confirmation',
-    'unoMas.location'
+    'unoMas.location',
+    'unoMas.status'
   ])
   .config(unoMasConfig)
   .run(unoMasRun);
