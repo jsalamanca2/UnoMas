@@ -215,6 +215,15 @@ button{
   font-size: 18px;
   text-align: center;
 }
+.partner{
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.partner img{
+  width: 35px;
+  height: 35px;
+}
+
 
 /*confirmation*/
 .confirmImg{
