@@ -1,9 +1,38 @@
 <ion-view view-title="Confirmation">
 	<ion-content>
-		<div>
-		<h1><u>Delivering Your Meal!</u></h1>
-		<driver ng-repeat="driver in ConfirmationVM.drivers" driver-data="driver" list="ComfirmationVM.isListView"></driver>
+		<div class="containerConfirm">
+			<h1><u>Order Confirmed</u></h1>
+
+		  <div class="item item-avatar">
+		    <p>Delivery Guy</p>
+		    <driver ng-repeat="driver in ConfirmationVM.drivers" driver-data="driver" list="ComfirmationVM.isListView"></driver>
+		  </div>
+
+		  <div class="item item-body">
+		    <img class="confirmMapImg" src="../../img/map.png"">
+		    <p>
+		      <h2><u>Order:</u></h2>
+		      <br>
+		      	<h3>Burrito:</h3>
+		      	<li>Beans</li>
+		      	<li>Sour Cream</li>
+				<li>4 Mexican Cheese</li>
+				<li>Rice</li>
+		      	<li>Beef</li>
+		      	Total: FREE
+		      	<br>
+		      	Estimate Delivery 15-20min
+		    </p>
+		    <p>
+		      Your Address: Epcot, Lake Buena Vista, FL
+		      <br>
+		      Restaurant Location: 8115 Vineland Ave, Orlando, FL 32821
+		      
+		    </p>
+		  </div>
+
 		</div>
+	
 		<div>
 			<img class= "confirmImg " src="../../img/deadppol.png">
 		</div>

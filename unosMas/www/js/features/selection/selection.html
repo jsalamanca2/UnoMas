@@ -16,6 +16,15 @@
     <ion-card>
       <img class="cardImg" src="../../img/burrito.png"/>
       <div data-toggle="collapse" class="card-title">Burritos $7</div>
+      <ion-list>
+        <ion-checkbox checkbox-dark ng-model="filter.red">Beans</ion-checkbox>
+        <ion-checkbox ng-model="filter.yellow">4 Mexican Cheeses</ion-checkbox>
+        <ion-checkbox ng-model="filter.blue">Lettuces</ion-checkbox>
+        <ion-checkbox checkbox-assertive ng-model="filter.green">Sour Cream</ion-checkbox>
+        <ion-checkbox ng-model="filter.purple">Rice</ion-checkbox>
+        <ion-checkbox ng-model="filter.pink">Beef</ion-checkbox>
+      </ion-list>
+
       
     </ion-card>
 

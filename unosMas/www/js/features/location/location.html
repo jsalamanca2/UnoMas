@@ -1,6 +1,20 @@
 <ion-view view-title="Location">
 	<ion-content>
 		<div id="map" data-tap-disabled="true"></div>
+		<div>
+			<img class="mapImg" src="../../img/map.png">
+		</div>
+		<ion-list>
+
+		  <ion-checkbox ng-model="filter.red"> 8115 Vineland Ave, Orlando, FL 32821</ion-checkbox>
+		  <ion-checkbox ng-model="filter.yellow">11749 E Colonial Dr, Orlando, FL 32817</ion-checkbox>
+
+		</ion-list>
+			<div>
+				<button id="locationButton" class="button button-footer button-block button-outline button-dark" type="submit" ng-click="LocationVM.continue()">
+		  			Enter
+				</button>
+			</div>
 	</ion-content>
 </ion-view>
 

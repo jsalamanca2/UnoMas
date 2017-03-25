@@ -6,7 +6,7 @@ function LoginCtrl($state,$scope,$ionicModal, $timeout) {
 	var vm = this;
 
 	vm.continue = function(){
-		$state.go('selection');
+		$state.go('location');
 	};
 
 	  // Form data for the login modal
