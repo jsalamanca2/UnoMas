@@ -111,7 +111,7 @@ button{
 /* Style the background with cool drop shadow effect */
 .wrap{
   display: block;
-  width: 480px;
+  width: 350px;
   margin: 0 auto; 
   position: relative;
   height:70px;
@@ -194,8 +194,22 @@ button{
   margin-top: 50px;
   width: 50%;
 }
-
-
+.statusTitle{
+  font-family:'Faster One', cursive;
+  text-align: center;
+}
+.statusImg{
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.statusBar p{
+  font-family: 'VT323', monospace;
+  font-size: 18px;
+  text-align: center;
+}
 
 
 

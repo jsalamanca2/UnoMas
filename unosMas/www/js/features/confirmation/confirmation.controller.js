@@ -2,8 +2,12 @@ angular
 	.module('unoMas.confirmation')
 	.controller('ConfirmationCtrl', ConfirmationCtrl);
 
-function ConfirmationCtrl(api, $q) {
+function ConfirmationCtrl(api, $q, $state) {
 	var vm = this;
+
+    vm.continue = function(){
+        $state.go('status');
+    };
 
 	vm.drivers = {};
     vm.isListView = false;

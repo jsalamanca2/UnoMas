@@ -1,13 +1,14 @@
 <ion-view view-title="Confirmation">
 	<ion-content>
 		<div>
+		<h1><u>Delivering Your Meal</u></h1>
 		<driver ng-repeat="driver in ConfirmationVM.drivers" driver-data="driver" list="ComfirmationVM.isListView"></driver>
 		</div>
 		<div>
 			<img class= "confirmImg " src="../../img/deadppol.png">
 		</div>
 		<div>
-			<button id="statusButton" class="button button-footer button-block button-outline button-dark" ng-click="status.continue()">
+			<button id="statusButton" class="button button-footer button-block button-outline button-dark" ng-click="StatusVM.continue()">
 	  			Delivery Status
 			</button>
 		</div>

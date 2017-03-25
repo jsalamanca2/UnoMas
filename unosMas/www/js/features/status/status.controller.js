@@ -4,6 +4,12 @@ angular
 
 function StatusCtrl($state) {
 	var vm = this;
+
+	vm.continue = function(){
+		$state.go('status');
+	};
+
+
 	var $ = angular.element;
 	$(document).ready(function(){
 
