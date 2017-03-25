@@ -59,7 +59,7 @@ h2{
 
 
 /*Selection CSS*/
-img{
+.cardImg{
   padding: 5px;
   height: 200px;
   width: 368px;
@@ -90,6 +90,11 @@ button{
     position: center;
     margin-bottom:5px;
   font-family: 'Teko', sans-serif;
+}
+.card-title{
+  font-family:'Teko', sans-serif;
+  font-size: 19px;
+  text-align: center;
 }
 
 /*Status Bar-View */
@@ -211,6 +216,14 @@ button{
   text-align: center;
 }
 
-
-
-
+/*confirmation*/
+.confirmImg{
+  padding: 5px;
+  height: 200px;
+  width: 360px;
+}
+/*driver{
+  width: 50px;
+  height: 40px;
+}
+*/
